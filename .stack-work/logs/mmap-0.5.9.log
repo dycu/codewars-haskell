@@ -1,6 +1,0 @@
-Configuring mmap-0.5.9...
-Preprocessing library for mmap-0.5.9..
-Building library for mmap-0.5.9..
-[1 of 1] Compiling System.IO.MMap   ( System/IO/MMap.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/System/IO/MMap.o )
-Installing library in /Users/lukasz.dycjan/.stack/snapshots/x86_64-osx/lts-11.2/8.2.2/lib/x86_64-osx-ghc-8.2.2/mmap-0.5.9-AskA5vMKkrRI1GN3KT8XZJ
-Registering library for mmap-0.5.9..

@@ -1,6 +1,0 @@
-Configuring warp-tls-3.2.4.2...
-Preprocessing library for warp-tls-3.2.4.2..
-Building library for warp-tls-3.2.4.2..
-[1 of 1] Compiling Network.Wai.Handler.WarpTLS ( Network/Wai/Handler/WarpTLS.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Network/Wai/Handler/WarpTLS.o )
-Installing library in /Users/lukasz.dycjan/.stack/snapshots/x86_64-osx/lts-11.2/8.2.2/lib/x86_64-osx-ghc-8.2.2/warp-tls-3.2.4.2-K05480WBiIXLHUX3C3eFB6
-Registering library for warp-tls-3.2.4.2..

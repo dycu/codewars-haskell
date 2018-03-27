@@ -1,6 +1,0 @@
-Configuring fmlist-0.9.2...
-Preprocessing library for fmlist-0.9.2..
-Building library for fmlist-0.9.2..
-[1 of 1] Compiling Data.FMList      ( Data/FMList.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Data/FMList.o )
-Installing library in /Users/lukasz.dycjan/.stack/snapshots/x86_64-osx/lts-11.2/8.2.2/lib/x86_64-osx-ghc-8.2.2/fmlist-0.9.2-5s08raTrKC6Ifm5la47EVy
-Registering library for fmlist-0.9.2..

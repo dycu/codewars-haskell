@@ -1,6 +1,6 @@
 target/
 .idea/
-.stack-work/
+.stack-work
 .ensime
 .ensime_cache/
 .DS_Store

@@ -1,7 +1,0 @@
-Configuring js-jquery-3.3.1...
-Preprocessing library for js-jquery-3.3.1..
-Building library for js-jquery-3.3.1..
-[1 of 2] Compiling Paths_js_jquery  ( .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_js_jquery.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Paths_js_jquery.o )
-[2 of 2] Compiling Language.Javascript.JQuery ( src/Language/Javascript/JQuery.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Language/Javascript/JQuery.o )
-Installing library in /Users/lukasz.dycjan/.stack/snapshots/x86_64-osx/lts-11.2/8.2.2/lib/x86_64-osx-ghc-8.2.2/js-jquery-3.3.1-Gtcl1p1GgE774bH0zHbuAB
-Registering library for js-jquery-3.3.1..
