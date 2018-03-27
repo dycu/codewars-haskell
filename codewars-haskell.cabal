@@ -1,0 +1,63 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 43a4a3df410a321738b5c6e64c25d34c27b9b09664e6a74c5d8c8672e602db99
+
+name:           codewars-haskell
+version:        0.1.0.0
+description:    Please see the README on Github at <https://github.com/githubuser/codewars-haskell#readme>
+homepage:       https://github.com/githubuser/codewars-haskell#readme
+bug-reports:    https://github.com/githubuser/codewars-haskell/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/codewars-haskell
+
+library
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_codewars_haskell
+  default-language: Haskell2010
+
+executable codewars-haskell-exe
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , codewars-haskell
+  other-modules:
+      TenMinuteWalk
+      Paths_codewars_haskell
+  default-language: Haskell2010
+
+test-suite codewars-haskell-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , codewars-haskell
+  other-modules:
+      Paths_codewars_haskell
+  default-language: Haskell2010
