@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 43a4a3df410a321738b5c6e64c25d34c27b9b09664e6a74c5d8c8672e602db99
+-- hash: 6b7100b0311db3702946116f5dabd3cf2a330f31f059e41dbc928740961f2ec7
 
 name:           codewars-haskell
 version:        0.1.0.0
@@ -30,6 +30,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , mtl
   exposed-modules:
       Lib
   other-modules:
@@ -44,6 +45,7 @@ executable codewars-haskell-exe
   build-depends:
       base >=4.7 && <5
     , codewars-haskell
+    , mtl
   other-modules:
       TenMinuteWalk
       Paths_codewars_haskell
@@ -58,6 +60,7 @@ test-suite codewars-haskell-test
   build-depends:
       base >=4.7 && <5
     , codewars-haskell
+    , mtl
   other-modules:
       Paths_codewars_haskell
   default-language: Haskell2010
